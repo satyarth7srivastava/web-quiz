@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  background-color: rgb(105, 255, 105);
+  height: 20%;
+}
+
+html {
+  background-color: rgb(197, 255, 197);
+  font-family: poppins;
+}

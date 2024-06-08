@@ -1,0 +1,92 @@
+.bg-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(197, 255, 197);
+  gap: 20px;
+  padding: 40px 50px;
+}
+
+.box-first {
+  border-radius: 10px;
+  background-color: rgb(105, 255, 105);
+  padding: 10px;
+  width: 70%;
+}
+
+.ques-box {
+  background-color: rgb(197, 255, 197);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 3%;
+}
+
+.option-box {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.op-box-l {
+
+  width: 45%;
+  border-radius: 10px;
+}
+
+.op-box-r {
+
+  width: 45%;
+  border-radius: 10px;
+}
+
+.op {
+  cursor: pointer;
+  background-color: rgb(197, 255, 197);
+  width: 60%;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.checked:hover {
+  background-color: rgb(197, 255, 105);
+  outline: 5px solid rgb(244, 240, 10);
+  outline-offset: -5px;
+}
+
+.correct {
+  background-color: rgb(197, 255, 105);
+  outline: 8px solid rgb(53, 235, 255);
+  outline-offset: -8px;
+}
+
+.wrong {
+  background-color: rgb(197, 255, 105);
+  outline: 8px solid rgb(255, 53, 53);
+  outline-offset: -8px;
+}
+.btn-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  background-color: rgb(197, 255, 197);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.result-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.result-inner-box{
+  padding: 20px;
+  background-color: rgb(105, 255, 105);
+  border-radius: 10px;
+}
